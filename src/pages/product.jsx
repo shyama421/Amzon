@@ -8,7 +8,7 @@ function Product() {
     const details = productDetails.find((ele) => ele.id === Number(id));
 
     return (
-        <div key={details?.id} className="flex justify-between p-20 items-center h-[100%] gap-10 max-sm:flex-col max-sm:p-4 max-sm:gap-3" >
+        <div key={details?.id} className="flex justify-between p-20 items-center h-[100%]  gap-10 max-sm:flex-col max-sm:p-4 max-sm:gap-3" >
             <div>
                 <img src={details?.image} className="h-[400[px] w-[400px] max-sm:h-[220px] max-sm:w-[220px]" />
             </div>
